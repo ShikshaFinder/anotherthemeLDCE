@@ -3688,7 +3688,7 @@ fieldset:disabled .btn {
 .btn-outline-warning:active:focus,
 .btn-outline-warning.active:focus,
 .btn-outline-warning.dropdown-toggle.show:focus {
-    box-shadow: 0 0 0 .25rem rgba(255, 193, 7, .5)
+    box-shadow: 0 0 0 .25rem rgba(90, 7, 255, 0.5)
 }
 
 .btn-outline-warning:disabled,
@@ -4188,7 +4188,7 @@ fieldset:disabled .btn {
 .dropdown-item:hover,
 .dropdown-item:focus {
     color: #1e2125;
-    background-color: #e9ecef
+    background-color: #ffffff
 }
 
 .dropdown-item.active,
@@ -4397,7 +4397,7 @@ fieldset:disabled .btn {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #c69350
+    color: #6950c6
 }
 
 .nav-link.disabled {
