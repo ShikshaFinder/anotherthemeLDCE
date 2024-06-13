@@ -94,3 +94,7 @@
 
 })(jQuery);
 
+
+var module = document.querySelector(".box p");
+
+$clamp(module, { clamp: 1 });
