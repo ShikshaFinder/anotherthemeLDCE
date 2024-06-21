@@ -53,6 +53,26 @@
   <script src="https://cdn.rawgit.com/bfintal/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
   <!-- Waypoints (dependency for CounterUp) -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <style>
+    .event-carousel .event-item .image-container {
+      width: 100%;
+      height: 200px;
+      /* Fixed height for all images */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      border-radius: 5px;
+      /* Optional: Add some border radius */
+    }
+  
+    .event-carousel .event-item .image-container img {
+      width: auto;
+      height: 100%;
+      object-fit: cover;
+      /* Cover the container while maintaining aspect ratio */
+    }
+  </style>
 </head>
 
 <body>
@@ -589,7 +609,7 @@
   <div class="container-fluid causes py-5">
     <div class="container py-5">
       <div class="text-center mx-auto pb-5" style="max-width: 800px">
-        <h5 class="text-uppercase text-primary">What we are proud of !</h5>
+     
         <h1 class="mb-4">Research papers and startups by LDCE students</h1>
       </div>
       <div class="row g-4">
@@ -686,74 +706,86 @@
 
         </h1>
       </div>
-      <div class="event-carousel owl-carousel">
-        <div class="event-item">
+    <div class="event-carousel owl-carousel">
+      <div class="event-item">
+        <div class="image-container">
           <img
             src="https://ldce.ac.in/images/thumb/achievements/1970/i-scale-award-from-gtu-to-the-students-for-leadership-excellence.jpg"
             class="img-fluid w-100" alt="Image" />
-          <div class="event-content p-4">
-            <div class="d-flex justify-content-between mb-4">
-              <span class="text-body"><i class="fas fa-map-marker-alt me-2"></i>LDCE</span>
-              <span class="text-body"><i class="fas fa-calendar-alt me-2"></i>10 Feb, 2023</span>
-            </div>
-            <h4 class="mb-4">Lakshya Event</h4>
-            <p class="mb-4 text-truncate">
-              Lakshya Event is a platform for students to showcase their talent.
-            </p>
-            <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="#">Read More</a>
-          </div>
         </div>
-        <div class="event-item">
+        <div class="event-content p-4">
+          <div class="d-flex justify-content-between mb-4">
+            <span class="text-body"><i class="fas fa-map-marker-alt me-2"></i>LDCE</span>
+            <span class="text-body"><i class="fas fa-calendar-alt me-2"></i>10 Feb, 2023</span>
+          </div>
+          <h4 class="mb-4">Lakshya Event</h4>
+          <p class="mb-4 text-truncate">
+            Lakshya Event is a platform for students to showcase their talent.
+          </p>
+          <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="#">Read More</a>
+        </div>
+      </div>
+      <div class="event-item">
+        <div class="image-container">
           <img src="https://ldce.ac.in//img/sliders/sahitya-sarita-a-literature-fest-t3vvUN.jpg" class="img-fluid w-100"
             alt="Image" />
-          <div class="event-content p-4">
-            <div class="d-flex justify-content-between mb-4">
-              <span class="text-body"><i class="fas fa-map-marker-alt me-2"></i>LDCE</span>
-              <span class="text-body"><i class="fas fa-calendar-alt me-2"></i>10 Feb, 2023</span>
-            </div>
-            <h4 class="mb-4 box">Sahitya Sarita</h4>
-            <p class="mb-4 text-truncate">
-              Sahitya Sarita is a literature fest where students can showcase their literary skills.
-            </p>
+        </div>
+        <div class="event-content p-4">
+          <div class="d-flex justify-content-between mb-4">
+            <span class="text-body"><i class="fas fa-map-marker-alt me-2"></i>LDCE</span>
+            <span class="text-body"><i class="fas fa-calendar-alt me-2"></i>10 Feb, 2023</span>
+          </div>
+          <h4 class="mb-4 box">Sahitya Sarita</h4>
+          <p class="mb-4 text-truncate">
+            Sahitya Sarita is a literature fest where students can showcase their literary skills.
+          </p>
+                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="#">Read More</a>
 
-          </div>
         </div>
-        <div class="event-item">
-         <div class="object-fit-none border rounded"><img src="https://ldce.ac.in/images/thumb/achievements/2015/two-students-won-an-i-scale-award-from-gtu.jpg"
-          class="img-fluid w-100" alt="Image" /> </div>
-          <div class="event-content p-4">
-            <div class="d-flex justify-content-between mb-4">
-              <span class="text-body"><i class="fas fa-map-marker-alt me-2"></i>LDCE</span>
-              <span class="text-body"><i class="fas fa-calendar-alt me-2"></i>10 Feb, 2023</span>
-            </div>
-            <h4 class="mb-4">Hackathon</h4>
-            <p class="mb-4 text-truncate">
-              Hackathon is a platform for students to showcase their coding skills.
-            </p>
-            <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="#">Read More</a>
-          </div>
-        </div>
-        <div class="event-item">
+      </div>
+      <div class="event-item">
+        <div class="image-container">
           <img src="https://ldce.ac.in/images/thumb/achievements/2015/two-students-won-an-i-scale-award-from-gtu.jpg"
             class="img-fluid w-100" alt="Image" />
-          <div class="event-content p-4">
-            <div class="d-flex justify-content-between mb-4">
-              <span class="text-body"><i class="fas fa-map-marker-alt me-2"></i>LDCE</span>
-              <span class="text-body"><i class="fas fa-calendar-alt me-2"></i>10 Feb, 2023</span>
-            </div>
-            <h4 class="mb-4">Vibrant Gujrat Summit</h4>
-            <p class="mb-4">
-              <p class="mb-4 text-truncate">
-                Vibrant Gujarat Summit is a prestigious event that showcases the economic and business potential of Gujarat. It brings together industry leaders, investors, and government officials to discuss and explore opportunities for growth and development. The summit is known for its vibrant atmosphere and serves as a platform for networking, knowledge sharing, and collaboration. Attendees can expect insightful sessions, exhibitions, and interactive discussions on various sectors and industries. It is a must-attend event for anyone interested in the economic landscape of Gujarat.
-              </p></p>
-            </p>
-            <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="#">Read More</a>
+        </div>
+        <div class="event-content p-4">
+          <div class="d-flex justify-content-between mb-4">
+            <span class="text-body"><i class="fas fa-map-marker-alt me-2"></i>LDCE</span>
+            <span class="text-body"><i class="fas fa-calendar-alt me-2"></i>10 Feb, 2023</span>
           </div>
+          <h4 class="mb-4">Hackathon</h4>
+          <p class="mb-4 text-truncate">
+            Hackathon is a platform for students to showcase their coding skills.
+          </p>
+          <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="#">Read More</a>
+        </div>
+      </div>
+      <div class="event-item">
+        <div class="image-container">
+          <img src="https://ldce.ac.in/images/thumb/achievements/2015/two-students-won-an-i-scale-award-from-gtu.jpg"
+            class="img-fluid w-100" alt="Image" />
+        </div>
+        <div class="event-content p-4">
+          <div class="d-flex justify-content-between mb-4">
+            <span class="text-body"><i class="fas fa-map-marker-alt me-2"></i>LDCE</span>
+            <span class="text-body"><i class="fas fa-calendar-alt me-2"></i>10 Feb, 2023</span>
+          </div>
+          <h4 class="mb-4">Vibrant Gujrat Summit</h4>
+          <p class="mb-4 text-truncate">
+            Vibrant Gujarat Summit is a prestigious event that showcases the economic and business potential of Gujarat. It
+            brings together industry leaders, investors, and government officials to discuss and explore opportunities for
+            growth and development. The summit is known for its vibrant atmosphere and serves as a platform for networking,
+            knowledge sharing, and collaboration. Attendees can expect insightful sessions, exhibitions, and interactive
+            discussions on various sectors and industries. It is a must-attend event for anyone interested in the economic
+            landscape of Gujarat.
+          </p>
+          <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="#">Read More</a>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Events End -->
+    
+   
+ <!-- Events End -->
 
   <!-- Blog Start -->
   <!-- Blog End -->
