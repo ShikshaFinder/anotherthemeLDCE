@@ -180,14 +180,14 @@
 
 .fa-house:hover
 {
-  color: #f8b864 !important;
+  color: #06fa06 !important;
   transition: 0.5s linear;
 }
 
 .item-heading
 {
   font-size: large;
-  color: #f8b864 !important;
+  color: #06fa94 !important;
 }
 
 @media (width > 768px) {
